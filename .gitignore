@@ -1,0 +1,27 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Backend
+backend/bin/
+backend/tmp/
+backend/.env
+backend/*.exe
+backend/coverage.out
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Local infrastructure
+.env
+docker-compose.override.yml
+
